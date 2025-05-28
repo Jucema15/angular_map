@@ -6,7 +6,7 @@ import { map } from 'rxjs';
   providedIn: 'root',
 })
 export class ReadingsService {
-  host = 'http://alerio-production.up.railway.app';
+  host = 'https://alerio-production.up.railway.app';
 
   constructor(private http: HttpClient) {}
   getReadings() {
