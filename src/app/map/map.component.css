@@ -127,12 +127,12 @@ select {
   }
 }
 
-.maplibregl-marker {
-    left: 0;
-    position: absolute;
-    top: 0;
-    transition: opacity .2s;
-    will-change: transform;
+.maplibregl-marker.maplibregl-marker-anchor-center.\31 {
+    left: 0px !important;
+    position: absolute !important;
+    top: 0px !important;
+    will-change: transform !important;
+    transition: opacity 0.2s !important;
 }
 
 /**
