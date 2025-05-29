@@ -83,6 +83,7 @@ export class MapComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   createMarkers() {
+    debugger;
     let mark;
     let tamaño;
     if (mapMarkers.length !== 0) {
